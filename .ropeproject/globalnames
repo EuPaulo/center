@@ -1,0 +1,5 @@
+€}q(Ucenter]Uattend]Ucenter.settings]q(UUSE_L10NqULANGUAGE_CODEqUUSE_TZqUUSE_I18NqU	DATABASESqU	TIME_ZONEqU
+STATIC_URLq	UROOT_URLCONFq
+UTEMPLATE_DEBUGqUWSGI_APPLICATIONqUMIDDLEWARE_CLASSESqUDEBUGqUALLOWED_HOSTSqU
+SECRET_KEYqUINSTALLED_APPSqUBASE_DIRqeUattend.models]qUPessoaqaUcenter.wsgi]qUapplicationqaUmanage]Uattend.admin]Ucenter.urls]qUurlpatternsqaUshutil]q(UcopyfileqUignore_patternsqUcopytreeqUget_archive_formatsqUcopyfileobjqUregister_archive_formatqUcopymodeq Umake_archiveq!Umoveq"Uunregister_archive_formatq#Urmtreeq$UErrorq%Ucopyq&U	ExecErrorq'Ucopy2q(USpecialFileErrorq)Ucopystatq*UWindowsErrorq+eUos]q,(Upopen4q-Uexecleq.Upopen3q/USEEK_CURq0Uspawnlpq1Uexeclpq2Uenvironq3Uspawnvpq4Uspawnlq5Uexecvpq6Umakedirsq7Ulinesepq8UP_WAITq9Uspawnvq:Uspawnveq;Uexecvpeq<Uunsetenvq=USEEK_SETq>Ugetenvq?Upopen2q@UwalkqAUspawnleqBUexeclqCUnameqDUSEEK_ENDqEUspawnlpeqFU	P_NOWAITOqGUP_NOWAITqHU
+removedirsqIUrenamesqJUspawnvpeqKUexeclpeqLeUattend.views]Uattend.tests]u.
