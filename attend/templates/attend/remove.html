@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block corpo %}
+
+<h1>Remover</h1>
+
+<h2>{{ item.prenome }} {{ item.sobrenome }}</h2>
+
+<form action="" method="post">
+    {% csrf_token %}
+    <p><button type="submit">Remover</button> ou <a href="/pessoa/">cancelar</a></p>
+</form>
+
+{% endblock %}

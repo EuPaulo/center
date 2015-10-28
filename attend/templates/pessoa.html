@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block corpo %}
+
+<ul>
+    {% for item in lista_pessoa %}
+    <li>
+    <a> {{ item.prenome }} - {{ item.sobrenome }}
+    </a>
+    </li>
+    {% endfor %}
+    
+    {% endblock %}
+

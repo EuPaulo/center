@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block corpo %}
+
+<table>
+    {% for item in pessoa %}
+    <tr>
+        {% load staticfiles %}
+        <td><a href="/remove/{{ item.id }}/"><img src="{% static "imagens/lixeira.png" %}"/></a></td>
+        <td> <a href="/pessoa/{{ item.id }}/">{{ item.prenome }}</a></td>
+        <td> {{ item.sobrenome }} </td> 
+        <td> {{ item.nascimento }} </td> 
+        <td> {{ item.pai }} </td>
+        <td> {{ item.mae }} </td>
+        <td> {{ item.saida }} </td>
+        <td> {{ item.turma }} </td>
+    </tr>
+
+    {% empty %}
+    <li> Sem itens na lista</li>
+
+{% endfor %}
+</table>
+
+<ul>
+    <li><a href="/adiciona/">Adicionar nova pessoa</a></li>
+</ul>
+{% endblock %}
+
